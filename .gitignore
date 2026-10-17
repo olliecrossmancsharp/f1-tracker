@@ -1,0 +1,21 @@
+#cached python
+__pycache__/
+*.py[cod]
+#virtual enviroments
+.venv/
+venv/
+env/
+#FastF1 downlaoded data so it does not push
+f1_cache/
+cache/
+#local secrets
+.env
+#any macOS files
+.DS_Store
+#editor settings
+.vscode/
+.idea/
+#test output
+.pytest_cache/
+.coverage
+htmlcov/
